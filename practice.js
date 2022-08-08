@@ -1,12 +1,11 @@
 
-// practice-1
-/*  var fruits = ['Apple', 'Banana', 'Orange'];
+// practice-6
+/* var fruits = ['Apple', 'Banana', 'Orange'];
 var indexPosition = fruits.indexOf('Banana');
-console.log(index);
-var fruits = ['Apple', 'Banana', 'Orange'];
-// var indexPosition = fruits.indexOf('Banana');
-console.log(fruits.indexOf('Banana'));
-fruits[1] = 'mango';
+// console.log(fruits.indexOf('Banana'));
+console.log(indexPosition);
+// fruits[1] = 'mango';
+fruits[indexPosition] = 'mango';
 console.log(fruits);
 fruits.pop();
 console.log(fruits);
@@ -63,4 +62,42 @@ var side3 = 9;
 
 if(side1 == side2 || side1 == side3 || side2 == side3){
     console.log('isosceles');
+} */
+
+/* 
+
+var signal = ['red', 'green', 'yellow'];
+if (signal[2] == 'red') {
+    console.log('Danger wait for the green signal');
+
+}
+else if (signal[1] == 'yellow') {
+    console.log('Stop, wait for the green signal');
+
+}
+else {
+    console.log('Go and enjoy the time');
+} */
+
+/* var marks = [95, 66, 80, 59, 47, 77];
+
+if (marks[5] >= 90) {
+    console.log(' Alia have received A+ grade');
+}
+else if (marks[3] >= 80 && marks[2] < 90) {
+    console.log('you have received A grade');
+}
+else if (marks[2] >= 70 && marks[3] < 80) {
+    console.log('you have received D grade');
+}
+else if (marks[1] >= 60 && marks[1] < 70) {
+    console.log('you have received C grade');
+}
+
+else if (marks[3] >= 50 && marks[3] < 60) {
+    console.log('you have received D grade');
+}
+
+else if (marks < 50) {
+    console.log('you have received F grade');
 } */
