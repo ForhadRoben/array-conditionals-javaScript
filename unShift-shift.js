@@ -1,7 +1,7 @@
 const array1 = [1, 2, 3];
-// array1.unshift(4, 5);
-console.log(array1.unshift(4, 5, 6));
-// expected output: 5
+// array1.unshift(4, 5, 10);
+console.log(array1.unshift(4, 5, 10));
+// expected output: 6
 
 console.log(array1);
 // expected output: Array [4, 5, 1, 2, 3]

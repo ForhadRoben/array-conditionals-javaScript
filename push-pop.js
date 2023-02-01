@@ -3,7 +3,7 @@ var numbers = [78, 45, 98, 45];
 numbers.push(63);
 numbers.push(100);
 
-console.log(numbers);
+console.log(numbers.push());
 
 var friends = ['balam', 'kalam', 'salam'];
 friends.push('gelam');
@@ -14,5 +14,5 @@ friends.push('pailam')
 // console.log(numbers);
 // numbers.pop();
 var element = numbers.pop();
-console.log(numbers);
-console.log(element);
+// console.log(numbers);
+// console.log(element);

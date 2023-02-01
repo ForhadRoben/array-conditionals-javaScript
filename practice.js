@@ -12,7 +12,7 @@ console.log(fruits);
 fruits.push('watermelon');
 console.log(fruits); */
 
-// practice-2
+// ps-7
 
 /* var marks = 70;
 
@@ -33,7 +33,7 @@ else {
 }
  */
 
-// practice-3
+// ps-8
 /* var num1 = 13;
 var num2 = 79;
 var num3 = 45;
@@ -55,7 +55,7 @@ else{
     }
 } */
 
-// practice 4
+// practice 9
 /* var side1 = 9;
 var side2 = 8;
 var side3 = 9;
@@ -64,8 +64,8 @@ if(side1 == side2 || side1 == side3 || side2 == side3){
     console.log('isosceles');
 } */
 
-/* 
-
+/*
+//ps-11
 var signal = ['red', 'green', 'yellow'];
 if (signal[2] == 'red') {
     console.log('Danger wait for the green signal');
@@ -79,9 +79,11 @@ else {
     console.log('Go and enjoy the time');
 } */
 
-/* var marks = [95, 66, 80, 59, 47, 77];
 
-if (marks[5] >= 90) {
+//ps-10
+var marks = [95, 66, 80, 59, 47, 77];
+
+if (marks[0] >= 90) {
     console.log(' Alia have received A+ grade');
 }
 else if (marks[3] >= 80 && marks[2] < 90) {
@@ -98,6 +100,6 @@ else if (marks[3] >= 50 && marks[3] < 60) {
     console.log('you have received D grade');
 }
 
-else if (marks < 50) {
+else {
     console.log('you have received F grade');
-} */
+}
