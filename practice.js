@@ -81,7 +81,7 @@ else {
 
 
 //ps-10
-var marks = [95, 66, 80, 59, 47, 77];
+/* var marks = [95, 66, 80, 59, 47, 77];
 
 if (marks[0] >= 90) {
     console.log(' Alia have received A+ grade');
@@ -102,4 +102,6 @@ else if (marks[3] >= 50 && marks[3] < 60) {
 
 else {
     console.log('you have received F grade');
-}
+} */
+
+

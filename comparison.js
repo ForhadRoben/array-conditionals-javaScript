@@ -2,7 +2,7 @@
 // console.log(5 > 6);
 // console.log(5 == 6);
 // console.log(6 == 6);
-console.log(6 != 6);
+// console.log(6 != 6);
 
 // console.log(15 != 15);
 // less than or equal
@@ -13,7 +13,7 @@ console.log(6 != 6);
 // !== not equal type and value
 
 // greater than or equal
-console.log(6 >= 6)
+// console.log(6 >= 6)
 // console.log(5 >= 2)
 // console.log(2 >= 2)
 
@@ -30,3 +30,13 @@ var num2 = 89;
 // multiple conditions
 // money1 > money2 && result1 > result2 && height1 > height2
 // money1 > money2 || result1 > result2 || height1 > height2
+
+
+console.log(0 == false)
+// Expected output: true
+console.log(0 === false)
+// Expected output: false
+console.log(1 == true)
+// Expected output: true
+console.log(1 === true)
+// Expected output: false
